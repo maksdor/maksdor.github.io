@@ -114,3 +114,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
 }
+
+.icons:hover {
+    color: yellow;
+}
