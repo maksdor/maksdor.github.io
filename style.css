@@ -1,0 +1,116 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 2px 1.5px 1px #000;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color:black;
+}
+
+.me {
+    color: white;
+    position: absolute;
+    left: 15px;
+    font-size: 50px;
+}
+
+.self {
+    border: 2px dashed black;
+    width: 85%;
+    font-size: 30px;
+    line-height: 1.5em;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #20B2AA;
+}
+
+.middle {
+    padding-top: 30px;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.project {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #20B2AA;
+    width: fit-content;
+}
+
+.project:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+.project img{
+    display: block;
+    margin: 0 auto;
+    width: 550px;
+    height: 350px;
+}
+
+a:link, a:visited, a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.giga {
+    width: 25%;
+    height: 333px;
+}
+
+p {
+    font-size: 25px;
+    text-align:center;
+    position: relative;
+    margin: 0px;
+    font-weight: bolder;
+}
+
+h2, h1 {
+    position: relative;
+}
+
+.recentproj {
+    border: 2px solid black;
+    text-align: center;
+    width: fit-content;
+    background-color: #20B2AA;
+    margin: 0 auto;
+    display: flex;
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 75px;
+    background-color:black;
+}
+
+.icons {
+    opacity: 75%;
+    margin: 0 25px;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
